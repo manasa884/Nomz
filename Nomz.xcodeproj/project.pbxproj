@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19173D5A1C3386E8006D2522 /* loginTF-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D591C3386E8006D2522 /* loginTF-03.png */; };
+		193526771C336F7600667235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526761C336F7600667235 /* AppDelegate.swift */; };
+		193526791C336F7600667235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526781C336F7600667235 /* ViewController.swift */; };
+		1935267C1C336F7600667235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1935267A1C336F7600667235 /* Main.storyboard */; };
+		1935267E1C336F7600667235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1935267D1C336F7600667235 /* Assets.xcassets */; };
+		193526811C336F7600667235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1935267F1C336F7600667235 /* LaunchScreen.storyboard */; };
+		1935268C1C336F7600667235 /* NomzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935268B1C336F7600667235 /* NomzTests.swift */; };
+		193526971C336F7600667235 /* NomzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526961C336F7600667235 /* NomzUITests.swift */; };
+		193526A51C3374B900667235 /* Logo-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 193526A41C3374B900667235 /* Logo-02.png */; };
+		193526A71C337F3700667235 /* Login Button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 193526A61C337F3700667235 /* Login Button-03.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193526881C336F7600667235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1935266B1C336F7600667235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193526721C336F7600667235;
+			remoteInfo = Nomz;
+		};
+		193526931C336F7600667235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1935266B1C336F7600667235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193526721C336F7600667235;
+			remoteInfo = Nomz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19173D591C3386E8006D2522 /* loginTF-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginTF-03.png"; sourceTree = "<group>"; };
+		193526731C336F7600667235 /* Nomz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193526761C336F7600667235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193526781C336F7600667235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1935267B1C336F7600667235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1935267D1C336F7600667235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		193526801C336F7600667235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193526821C336F7600667235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193526871C336F7600667235 /* NomzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1935268B1C336F7600667235 /* NomzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomzTests.swift; sourceTree = "<group>"; };
+		1935268D1C336F7600667235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193526921C336F7600667235 /* NomzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193526961C336F7600667235 /* NomzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomzUITests.swift; sourceTree = "<group>"; };
+		193526981C336F7600667235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193526A41C3374B900667235 /* Logo-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-02.png"; sourceTree = "<group>"; };
+		193526A61C337F3700667235 /* Login Button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login Button-03.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193526701C336F7600667235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193526841C336F7600667235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1935268F1C336F7600667235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1935266A1C336F7600667235 = {
+			isa = PBXGroup;
+			children = (
+				193526751C336F7600667235 /* Nomz */,
+				1935268A1C336F7600667235 /* NomzTests */,
+				193526951C336F7600667235 /* NomzUITests */,
+				193526741C336F7600667235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		193526741C336F7600667235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193526731C336F7600667235 /* Nomz.app */,
+				193526871C336F7600667235 /* NomzTests.xctest */,
+				193526921C336F7600667235 /* NomzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193526751C336F7600667235 /* Nomz */ = {
+			isa = PBXGroup;
+			children = (
+				193526761C336F7600667235 /* AppDelegate.swift */,
+				193526781C336F7600667235 /* ViewController.swift */,
+				1935267A1C336F7600667235 /* Main.storyboard */,
+				193526A41C3374B900667235 /* Logo-02.png */,
+				193526A61C337F3700667235 /* Login Button-03.png */,
+				19173D591C3386E8006D2522 /* loginTF-03.png */,
+				1935267D1C336F7600667235 /* Assets.xcassets */,
+				1935267F1C336F7600667235 /* LaunchScreen.storyboard */,
+				193526821C336F7600667235 /* Info.plist */,
+			);
+			path = Nomz;
+			sourceTree = "<group>";
+		};
+		1935268A1C336F7600667235 /* NomzTests */ = {
+			isa = PBXGroup;
+			children = (
+				1935268B1C336F7600667235 /* NomzTests.swift */,
+				1935268D1C336F7600667235 /* Info.plist */,
+			);
+			path = NomzTests;
+			sourceTree = "<group>";
+		};
+		193526951C336F7600667235 /* NomzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				193526961C336F7600667235 /* NomzUITests.swift */,
+				193526981C336F7600667235 /* Info.plist */,
+			);
+			path = NomzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193526721C336F7600667235 /* Nomz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1935269B1C336F7600667235 /* Build configuration list for PBXNativeTarget "Nomz" */;
+			buildPhases = (
+				1935266F1C336F7600667235 /* Sources */,
+				193526701C336F7600667235 /* Frameworks */,
+				193526711C336F7600667235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nomz;
+			productName = Nomz;
+			productReference = 193526731C336F7600667235 /* Nomz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		193526861C336F7600667235 /* NomzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1935269E1C336F7600667235 /* Build configuration list for PBXNativeTarget "NomzTests" */;
+			buildPhases = (
+				193526831C336F7600667235 /* Sources */,
+				193526841C336F7600667235 /* Frameworks */,
+				193526851C336F7600667235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193526891C336F7600667235 /* PBXTargetDependency */,
+			);
+			name = NomzTests;
+			productName = NomzTests;
+			productReference = 193526871C336F7600667235 /* NomzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		193526911C336F7600667235 /* NomzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193526A11C336F7600667235 /* Build configuration list for PBXNativeTarget "NomzUITests" */;
+			buildPhases = (
+				1935268E1C336F7600667235 /* Sources */,
+				1935268F1C336F7600667235 /* Frameworks */,
+				193526901C336F7600667235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193526941C336F7600667235 /* PBXTargetDependency */,
+			);
+			name = NomzUITests;
+			productName = NomzUITests;
+			productReference = 193526921C336F7600667235 /* NomzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1935266B1C336F7600667235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Manasa Tipparam";
+				TargetAttributes = {
+					193526721C336F7600667235 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					193526861C336F7600667235 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 193526721C336F7600667235;
+					};
+					193526911C336F7600667235 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 193526721C336F7600667235;
+					};
+				};
+			};
+			buildConfigurationList = 1935266E1C336F7600667235 /* Build configuration list for PBXProject "Nomz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1935266A1C336F7600667235;
+			productRefGroup = 193526741C336F7600667235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				193526721C336F7600667235 /* Nomz */,
+				193526861C336F7600667235 /* NomzTests */,
+				193526911C336F7600667235 /* NomzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193526711C336F7600667235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193526A71C337F3700667235 /* Login Button-03.png in Resources */,
+				193526811C336F7600667235 /* LaunchScreen.storyboard in Resources */,
+				1935267E1C336F7600667235 /* Assets.xcassets in Resources */,
+				193526A51C3374B900667235 /* Logo-02.png in Resources */,
+				19173D5A1C3386E8006D2522 /* loginTF-03.png in Resources */,
+				1935267C1C336F7600667235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193526851C336F7600667235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193526901C336F7600667235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1935266F1C336F7600667235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193526791C336F7600667235 /* ViewController.swift in Sources */,
+				193526771C336F7600667235 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193526831C336F7600667235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1935268C1C336F7600667235 /* NomzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1935268E1C336F7600667235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193526971C336F7600667235 /* NomzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193526891C336F7600667235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193526721C336F7600667235 /* Nomz */;
+			targetProxy = 193526881C336F7600667235 /* PBXContainerItemProxy */;
+		};
+		193526941C336F7600667235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193526721C336F7600667235 /* Nomz */;
+			targetProxy = 193526931C336F7600667235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1935267A1C336F7600667235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1935267B1C336F7600667235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1935267F1C336F7600667235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193526801C336F7600667235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193526991C336F7600667235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1935269A1C336F7600667235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1935269C1C336F7600667235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nomz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.Nomz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1935269D1C336F7600667235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nomz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.Nomz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1935269F1C336F7600667235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NomzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NomzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomz.app/Nomz";
+			};
+			name = Debug;
+		};
+		193526A01C336F7600667235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NomzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NomzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomz.app/Nomz";
+			};
+			name = Release;
+		};
+		193526A21C336F7600667235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NomzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NomzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nomz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		193526A31C336F7600667235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NomzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.NomzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nomz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1935266E1C336F7600667235 /* Build configuration list for PBXProject "Nomz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193526991C336F7600667235 /* Debug */,
+				1935269A1C336F7600667235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1935269B1C336F7600667235 /* Build configuration list for PBXNativeTarget "Nomz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1935269C1C336F7600667235 /* Debug */,
+				1935269D1C336F7600667235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1935269E1C336F7600667235 /* Build configuration list for PBXNativeTarget "NomzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1935269F1C336F7600667235 /* Debug */,
+				193526A01C336F7600667235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193526A11C336F7600667235 /* Build configuration list for PBXNativeTarget "NomzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193526A21C336F7600667235 /* Debug */,
+				193526A31C336F7600667235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1935266B1C336F7600667235 /* Project object */;
+}
