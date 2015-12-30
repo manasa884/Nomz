@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		19173D5A1C3386E8006D2522 /* loginTF-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D591C3386E8006D2522 /* loginTF-03.png */; };
+		19173D5C1C338BF2006D2522 /* signupTF-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D5B1C338BF2006D2522 /* signupTF-03.png */; };
+		19173D5E1C338CD3006D2522 /* Signup Button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D5D1C338CD3006D2522 /* Signup Button-03.png */; };
 		193526771C336F7600667235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526761C336F7600667235 /* AppDelegate.swift */; };
 		193526791C336F7600667235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526781C336F7600667235 /* ViewController.swift */; };
 		1935267C1C336F7600667235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1935267A1C336F7600667235 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		19173D591C3386E8006D2522 /* loginTF-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginTF-03.png"; sourceTree = "<group>"; };
+		19173D5B1C338BF2006D2522 /* signupTF-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signupTF-03.png"; sourceTree = "<group>"; };
+		19173D5D1C338CD3006D2522 /* Signup Button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signup Button-03.png"; sourceTree = "<group>"; };
 		193526731C336F7600667235 /* Nomz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		193526761C336F7600667235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		193526781C336F7600667235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				193526A41C3374B900667235 /* Logo-02.png */,
 				193526A61C337F3700667235 /* Login Button-03.png */,
 				19173D591C3386E8006D2522 /* loginTF-03.png */,
+				19173D5B1C338BF2006D2522 /* signupTF-03.png */,
+				19173D5D1C338CD3006D2522 /* Signup Button-03.png */,
 				1935267D1C336F7600667235 /* Assets.xcassets */,
 				1935267F1C336F7600667235 /* LaunchScreen.storyboard */,
 				193526821C336F7600667235 /* Info.plist */,
@@ -239,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				193526A71C337F3700667235 /* Login Button-03.png in Resources */,
+				19173D5E1C338CD3006D2522 /* Signup Button-03.png in Resources */,
 				193526811C336F7600667235 /* LaunchScreen.storyboard in Resources */,
 				1935267E1C336F7600667235 /* Assets.xcassets in Resources */,
+				19173D5C1C338BF2006D2522 /* signupTF-03.png in Resources */,
 				193526A51C3374B900667235 /* Logo-02.png in Resources */,
 				19173D5A1C3386E8006D2522 /* loginTF-03.png in Resources */,
 				1935267C1C336F7600667235 /* Main.storyboard in Resources */,
