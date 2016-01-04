@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nomz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" title="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Nomz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,6 +23,10 @@
                                 <state key="normal" title="Login" backgroundImage="Login Button-03.png">
                                     <color key="titleColor" red="0.99562026520000002" green="0.99562026520000002" blue="0.99562026520000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KjX-iY-utk"/>
+                                    <segue destination="W7z-fO-8WM" kind="push" id="tQX-7d-fjX"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Username" textAlignment="natural" minimumFontSize="17" background="loginTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="r7d-wH-Wyr">
                                 <rect key="frame" x="49" y="184" width="276" height="37"/>
@@ -32,21 +36,22 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" textAlignment="natural" minimumFontSize="17" background="loginTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="pEQ-qQ-8g3">
                                 <rect key="frame" x="49" y="251" width="276" height="37"/>
                                 <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iG-Id-fMv">
-                                <rect key="frame" x="61" y="370" width="179" height="21"/>
+                                <rect key="frame" x="59" y="393" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yms-PR-fYV">
-                                <rect key="frame" x="234" y="366" width="83" height="30"/>
+                                <rect key="frame" x="232" y="389" width="83" height="30"/>
                                 <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="18"/>
                                 <state key="normal" title="Sign Up!">
                                     <color key="titleColor" red="0.5490196078431373" green="0.77647058823529413" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="signUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hLR-hW-FuU"/>
                                     <segue destination="vDD-w4-0Fr" kind="show" id="Ajp-t2-Bog"/>
                                 </connections>
                             </button>
@@ -58,15 +63,19 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="passwordTF" destination="pEQ-qQ-8g3" id="PGv-Y9-Ghf"/>
+                        <outlet property="usernameTF" destination="r7d-wH-Wyr" id="hax-dP-05D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="320.5" y="386.5"/>
         </scene>
-        <!--View Controller-->
+        <!--signUpVC-->
         <scene sceneID="Z9E-xB-Sem">
             <objects>
-                <viewController id="vDD-w4-0Fr" sceneMemberID="viewController">
+                <viewController title="signUpVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vDD-w4-0Fr" customClass="SignUpViewController" customModule="Nomz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sIF-8s-PX2"/>
                         <viewControllerLayoutGuide type="bottom" id="uNZ-50-G3C"/>
@@ -75,20 +84,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfg-q8-aJs">
+                                <rect key="frame" x="107" y="56" width="160" height="64"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="42"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Username" textAlignment="natural" minimumFontSize="17" background="signupTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="eaw-Fy-JX1">
-                                <rect key="frame" x="49" y="190" width="276" height="37"/>
+                                <rect key="frame" x="49" y="146" width="276" height="37"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" textAlignment="natural" minimumFontSize="17" background="signupTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhj-Zy-PlA">
-                                <rect key="frame" x="49" y="249" width="276" height="37"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Email" textAlignment="natural" minimumFontSize="17" background="signupTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="aLP-LR-OfY">
+                                <rect key="frame" x="49" y="199" width="276" height="37"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Confirm Password" textAlignment="natural" minimumFontSize="17" background="signupTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="a1U-vs-fqZ">
-                                <rect key="frame" x="49" y="308" width="276" height="37"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" textAlignment="natural" minimumFontSize="17" background="signupTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhj-Zy-PlA">
+                                <rect key="frame" x="49" y="251" width="276" height="37"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -99,17 +114,26 @@
                                 <state key="normal" title="Sign Up" backgroundImage="Signup Button-03.png">
                                     <color key="titleColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpButtonPressed:" destination="vDD-w4-0Fr" eventType="touchUpInside" id="JiW-PG-wU8"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfg-q8-aJs">
-                                <rect key="frame" x="107" y="56" width="160" height="64"/>
-                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="42"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Confirm Password" textAlignment="natural" minimumFontSize="17" background="signupTF-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="a1U-vs-fqZ">
+                                <rect key="frame" x="49" y="303" width="276" height="37"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="confirmPasswordTF" destination="a1U-vs-fqZ" id="Bdw-dj-MeC"/>
+                        <outlet property="emailTF" destination="aLP-LR-OfY" id="hrl-xT-pu9"/>
+                        <outlet property="passwordTF" destination="Rhj-Zy-PlA" id="BPZ-Tl-tIJ"/>
+                        <outlet property="usernameTF" destination="eaw-Fy-JX1" id="zRd-Jt-MA8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VNU-ki-1M4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -120,26 +144,63 @@
             <objects>
                 <viewController id="iQE-Ha-8Qq" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jkF-Q4-mzR"/>
-                        <viewControllerLayoutGuide type="bottom" id="hJ3-R8-kDA"/>
+                        <viewControllerLayoutGuide type="top" id="AsU-9m-2au"/>
+                        <viewControllerLayoutGuide type="bottom" id="BSS-W1-bbH"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7Aq-Tw-4tu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <view key="view" contentMode="scaleToFill" id="aFP-KZ-T4r">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="J3k-82-bau">
+                        <barButtonItem key="leftBarButtonItem" image="MenuIcon.png" id="E1X-24-Atd">
+                            <color key="tintColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="swipeAreaIcon-06.png" id="yml-de-FsC">
+                            <color key="tintColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ox4-QM-atb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="320.5" y="1122.5"/>
+            <point key="canvasLocation" x="710.5" y="1143.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="L8N-pC-aC8">
+            <objects>
+                <navigationController id="W7z-fO-8WM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cdZ-b6-shy"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Xf-2k-lXD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="QxC-Um-G7l">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.54901960780000003" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="iQE-Ha-8Qq" kind="relationship" relationship="rootViewController" id="66L-8Q-QjO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="liV-Gr-c1I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320.5" y="1143.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Login Button-03.png" width="1789" height="265"/>
         <image name="Logo-02.png" width="762" height="115"/>
+        <image name="MenuIcon.png" width="9" height="30"/>
         <image name="Signup Button-03.png" width="1789" height="265"/>
         <image name="loginTF-03.png" width="1789" height="265"/>
         <image name="signupTF-03.png" width="1789" height="265"/>
+        <image name="swipeAreaIcon-06.png" width="36" height="30"/>
     </resources>
 </document>

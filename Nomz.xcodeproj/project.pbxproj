@@ -10,6 +10,23 @@
 		19173D5A1C3386E8006D2522 /* loginTF-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D591C3386E8006D2522 /* loginTF-03.png */; };
 		19173D5C1C338BF2006D2522 /* signupTF-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D5B1C338BF2006D2522 /* signupTF-03.png */; };
 		19173D5E1C338CD3006D2522 /* Signup Button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D5D1C338CD3006D2522 /* Signup Button-03.png */; };
+		19173D601C339388006D2522 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D5F1C339388006D2522 /* Parse.framework */; };
+		19173D621C33938E006D2522 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D611C33938E006D2522 /* Bolts.framework */; };
+		19173D641C3393C2006D2522 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D631C3393C2006D2522 /* AudioToolbox.framework */; };
+		19173D661C3393CB006D2522 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D651C3393CB006D2522 /* CFNetwork.framework */; };
+		19173D681C3393D9006D2522 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D671C3393D9006D2522 /* CoreGraphics.framework */; };
+		19173D6A1C3393E0006D2522 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D691C3393DF006D2522 /* CoreLocation.framework */; };
+		19173D6C1C3393ED006D2522 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D6B1C3393ED006D2522 /* QuartzCore.framework */; };
+		19173D6E1C3393F3006D2522 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D6D1C3393F3006D2522 /* Security.framework */; };
+		19173D701C339400006D2522 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D6F1C339400006D2522 /* StoreKit.framework */; };
+		19173D721C339407006D2522 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D711C339407006D2522 /* SystemConfiguration.framework */; };
+		19173D741C339416006D2522 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D731C339416006D2522 /* libz.tbd */; };
+		19173D761C33942D006D2522 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19173D751C33942D006D2522 /* libsqlite3.tbd */; };
+		19173D7B1C33BEA3006D2522 /* uploadItemIcon-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D781C33BEA3006D2522 /* uploadItemIcon-06.png */; };
+		19173D821C33C75A006D2522 /* MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D811C33C75A006D2522 /* MenuIcon.png */; };
+		19173D841C33C78E006D2522 /* swipeAreaIcon-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 19173D831C33C78E006D2522 /* swipeAreaIcon-06.png */; };
+		19173D881C39F4E8006D2522 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19173D871C39F4E8006D2522 /* LoginViewController.swift */; };
+		19173D8A1C39F85D006D2522 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19173D891C39F85D006D2522 /* SignUpViewController.swift */; };
 		193526771C336F7600667235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526761C336F7600667235 /* AppDelegate.swift */; };
 		193526791C336F7600667235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526781C336F7600667235 /* ViewController.swift */; };
 		1935267C1C336F7600667235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1935267A1C336F7600667235 /* Main.storyboard */; };
@@ -42,6 +59,23 @@
 		19173D591C3386E8006D2522 /* loginTF-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginTF-03.png"; sourceTree = "<group>"; };
 		19173D5B1C338BF2006D2522 /* signupTF-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signupTF-03.png"; sourceTree = "<group>"; };
 		19173D5D1C338CD3006D2522 /* Signup Button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Signup Button-03.png"; sourceTree = "<group>"; };
+		19173D5F1C339388006D2522 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		19173D611C33938E006D2522 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		19173D631C3393C2006D2522 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		19173D651C3393CB006D2522 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		19173D671C3393D9006D2522 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19173D691C3393DF006D2522 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		19173D6B1C3393ED006D2522 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		19173D6D1C3393F3006D2522 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		19173D6F1C339400006D2522 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		19173D711C339407006D2522 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		19173D731C339416006D2522 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		19173D751C33942D006D2522 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		19173D781C33BEA3006D2522 /* uploadItemIcon-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uploadItemIcon-06.png"; sourceTree = "<group>"; };
+		19173D811C33C75A006D2522 /* MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuIcon.png; sourceTree = "<group>"; };
+		19173D831C33C78E006D2522 /* swipeAreaIcon-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swipeAreaIcon-06.png"; sourceTree = "<group>"; };
+		19173D871C39F4E8006D2522 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		19173D891C39F85D006D2522 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		193526731C336F7600667235 /* Nomz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		193526761C336F7600667235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		193526781C336F7600667235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +98,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19173D761C33942D006D2522 /* libsqlite3.tbd in Frameworks */,
+				19173D741C339416006D2522 /* libz.tbd in Frameworks */,
+				19173D721C339407006D2522 /* SystemConfiguration.framework in Frameworks */,
+				19173D701C339400006D2522 /* StoreKit.framework in Frameworks */,
+				19173D6E1C3393F3006D2522 /* Security.framework in Frameworks */,
+				19173D6C1C3393ED006D2522 /* QuartzCore.framework in Frameworks */,
+				19173D6A1C3393E0006D2522 /* CoreLocation.framework in Frameworks */,
+				19173D681C3393D9006D2522 /* CoreGraphics.framework in Frameworks */,
+				19173D661C3393CB006D2522 /* CFNetwork.framework in Frameworks */,
+				19173D641C3393C2006D2522 /* AudioToolbox.framework in Frameworks */,
+				19173D601C339388006D2522 /* Parse.framework in Frameworks */,
+				19173D621C33938E006D2522 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +133,18 @@
 		1935266A1C336F7600667235 = {
 			isa = PBXGroup;
 			children = (
+				19173D751C33942D006D2522 /* libsqlite3.tbd */,
+				19173D731C339416006D2522 /* libz.tbd */,
+				19173D711C339407006D2522 /* SystemConfiguration.framework */,
+				19173D6F1C339400006D2522 /* StoreKit.framework */,
+				19173D6D1C3393F3006D2522 /* Security.framework */,
+				19173D6B1C3393ED006D2522 /* QuartzCore.framework */,
+				19173D691C3393DF006D2522 /* CoreLocation.framework */,
+				19173D671C3393D9006D2522 /* CoreGraphics.framework */,
+				19173D651C3393CB006D2522 /* CFNetwork.framework */,
+				19173D631C3393C2006D2522 /* AudioToolbox.framework */,
+				19173D611C33938E006D2522 /* Bolts.framework */,
+				19173D5F1C339388006D2522 /* Parse.framework */,
 				193526751C336F7600667235 /* Nomz */,
 				1935268A1C336F7600667235 /* NomzTests */,
 				193526951C336F7600667235 /* NomzUITests */,
@@ -109,12 +167,17 @@
 			children = (
 				193526761C336F7600667235 /* AppDelegate.swift */,
 				193526781C336F7600667235 /* ViewController.swift */,
+				19173D871C39F4E8006D2522 /* LoginViewController.swift */,
+				19173D891C39F85D006D2522 /* SignUpViewController.swift */,
 				1935267A1C336F7600667235 /* Main.storyboard */,
 				193526A41C3374B900667235 /* Logo-02.png */,
 				193526A61C337F3700667235 /* Login Button-03.png */,
 				19173D591C3386E8006D2522 /* loginTF-03.png */,
 				19173D5B1C338BF2006D2522 /* signupTF-03.png */,
 				19173D5D1C338CD3006D2522 /* Signup Button-03.png */,
+				19173D811C33C75A006D2522 /* MenuIcon.png */,
+				19173D831C33C78E006D2522 /* swipeAreaIcon-06.png */,
+				19173D781C33BEA3006D2522 /* uploadItemIcon-06.png */,
 				1935267D1C336F7600667235 /* Assets.xcassets */,
 				1935267F1C336F7600667235 /* LaunchScreen.storyboard */,
 				193526821C336F7600667235 /* Info.plist */,
@@ -208,6 +271,7 @@
 				TargetAttributes = {
 					193526721C336F7600667235 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MSX86K838U;
 					};
 					193526861C336F7600667235 = {
 						CreatedOnToolsVersion = 7.2;
@@ -244,12 +308,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19173D7B1C33BEA3006D2522 /* uploadItemIcon-06.png in Resources */,
 				193526A71C337F3700667235 /* Login Button-03.png in Resources */,
 				19173D5E1C338CD3006D2522 /* Signup Button-03.png in Resources */,
 				193526811C336F7600667235 /* LaunchScreen.storyboard in Resources */,
+				19173D821C33C75A006D2522 /* MenuIcon.png in Resources */,
 				1935267E1C336F7600667235 /* Assets.xcassets in Resources */,
 				19173D5C1C338BF2006D2522 /* signupTF-03.png in Resources */,
 				193526A51C3374B900667235 /* Logo-02.png in Resources */,
+				19173D841C33C78E006D2522 /* swipeAreaIcon-06.png in Resources */,
 				19173D5A1C3386E8006D2522 /* loginTF-03.png in Resources */,
 				1935267C1C336F7600667235 /* Main.storyboard in Resources */,
 			);
@@ -276,7 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19173D881C39F4E8006D2522 /* LoginViewController.swift in Sources */,
 				193526791C336F7600667235 /* ViewController.swift in Sources */,
+				19173D8A1C39F85D006D2522 /* SignUpViewController.swift in Sources */,
 				193526771C336F7600667235 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +486,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Nomz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.Nomz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +504,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Nomz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manasa.Nomz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
