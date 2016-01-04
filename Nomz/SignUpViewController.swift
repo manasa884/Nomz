@@ -39,17 +39,15 @@ class SignUpViewController: UIViewController {
         else
         {
             var newUser = PFUser()
+            newUser.username = username
+            newUser.email = email
+            newUser.password = password
+
             newUser.signUpInBackgroundWithBlock
                 {
                     (succeeded: Bool, error: NSError?) -> Void in
                     if error == nil
                     {
-                        
-                        newUser.username = username
-                        newUser.email = email
-                        newUser.password = password
-
-                        
                         dispatch_async(dispatch_get_main_queue())
                         {
                             let next = self.storyboard?.instantiateViewControllerWithIdentifier("LoginVC") as! LoginViewController
@@ -57,14 +55,25 @@ class SignUpViewController: UIViewController {
                         }
                         
                     }
+                    else if (error?.code == 125)
+                    {
+                        newUser.deleteInBackground()
+                        var alert = UIAlertView(title: "Invalid email address", message: "Please check your email and try again.", delegate: self, cancelButtonTitle: "OK")
+                        alert.show()
+                        email = "";
+                    }
+
                     else if (error?.code == 202)
                     {
+                        newUser.deleteInBackground()
                         var alert = UIAlertView(title: "Username Taken", message: "Please select a new username.", delegate: self, cancelButtonTitle: "OK")
                         alert.show()
                         username = "";
                     }
                     else if (error?.code == 203)
                     {
+                        newUser.deleteInBackground()
+
                         var alert = UIAlertView(title: "Email Taken", message: "Please enter a new email.", delegate: self, cancelButtonTitle: "OK")
                         alert.show()
                         email = "";
@@ -76,9 +85,9 @@ class SignUpViewController: UIViewController {
         }
         
         
-        
     }
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
