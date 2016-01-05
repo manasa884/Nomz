@@ -37,6 +37,7 @@
 		193526971C336F7600667235 /* NomzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193526961C336F7600667235 /* NomzUITests.swift */; };
 		193526A51C3374B900667235 /* Logo-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 193526A41C3374B900667235 /* Logo-02.png */; };
 		193526A71C337F3700667235 /* Login Button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 193526A61C337F3700667235 /* Login Button-03.png */; };
+		D173D30E1C3BA89900A4CE6F /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173D30D1C3BA89900A4CE6F /* NewPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		193526981C336F7600667235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		193526A41C3374B900667235 /* Logo-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-02.png"; sourceTree = "<group>"; };
 		193526A61C337F3700667235 /* Login Button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login Button-03.png"; sourceTree = "<group>"; };
+		D173D30D1C3BA89900A4CE6F /* NewPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				19173D871C39F4E8006D2522 /* LoginViewController.swift */,
 				19173D891C39F85D006D2522 /* SignUpViewController.swift */,
 				19173D8B1C3A1328006D2522 /* HomePageViewController.swift */,
+				D173D30D1C3BA89900A4CE6F /* NewPasswordViewController.swift */,
 				1935267A1C336F7600667235 /* Main.storyboard */,
 				193526A41C3374B900667235 /* Logo-02.png */,
 				193526A61C337F3700667235 /* Login Button-03.png */,
@@ -348,6 +351,7 @@
 			files = (
 				19173D881C39F4E8006D2522 /* LoginViewController.swift in Sources */,
 				193526791C336F7600667235 /* ViewController.swift in Sources */,
+				D173D30E1C3BA89900A4CE6F /* NewPasswordViewController.swift in Sources */,
 				19173D8A1C39F85D006D2522 /* SignUpViewController.swift in Sources */,
 				19173D8C1C3A1328006D2522 /* HomePageViewController.swift in Sources */,
 				193526771C336F7600667235 /* AppDelegate.swift in Sources */,
